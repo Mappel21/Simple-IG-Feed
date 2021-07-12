@@ -13,7 +13,17 @@ div.post{
   background: white;
   margin-top: 10px;
 }
-div.post .post-header div:first-child{
+.postheader{
+  display: inline-block;
+}
+.photo-title{
+  float: left;
+}
+.date{
+  float: right;
+  padding-top: 35px;
+}
+/* div.post .post-header div:first-child{
     display: inline-block;
     width: 80%;
 }
@@ -22,7 +32,7 @@ div.post .post-header div:last-child{
     width: 20%;
     text-align: right;
     color: gray;
-}
+} */
 div.post img{
     width: 100%;
 }
